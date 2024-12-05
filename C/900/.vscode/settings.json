@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "vector": "cpp",
+        "array": "c",
+        "functional": "c",
+        "random": "c",
+        "stdio.h": "c",
+        "stdbool.h": "c",
+        "tuple": "c"
+    }
+}

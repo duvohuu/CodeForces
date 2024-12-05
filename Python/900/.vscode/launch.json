@@ -1,0 +1,21 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "externalTerminal", // Changed to integratedTerminal for better integration
+            "pythonPath": "${command:python.interpreterPath}", // Automatically uses the selected Python interpreter
+            "stopOnEntry": false,
+            "redirectOutput": true,
+            "args": [], // Add command-line arguments here
+            "env": {}, // Add required environment variables here
+            "preLaunchTask": "" // Specify a task name to run before debugging starts (optional)
+        }
+    ]
+}
